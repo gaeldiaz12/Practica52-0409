@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Main</h2>
+        <form action="">
+
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" id="nombre">
+            </div>
+
+            <div>
+                <label for="Fechanac">Fecha nacimiento</label>
+                <input type="text" name="Fechanac" id="Fechanac">
+            </div>
+
+            <div>
+                <label for="Foto">Foto perfil</label>
+                <input type="file" name="Foto" id="Foto">
+            </div>
+
+            <div>
+                <label for="Semestre">Semestre</label>
+                <input type="range" min="1" max="10" name="Semestre" id="Semestre">
+            </div>
+
+            <div>
+                <label for="Colorfav">Color favorito</label>
+                <input type="color" name="Color" id="Color">
+            </div>
+
+            <div>
+                <label for="Semananac">Semana nacimiento</label>
+                <input type="week" name="Semananac" id="Semananac">
+            </div>
+
+            <div>
+                <label for="Ob">Observaciones</label>
+                <textarea name="Ob" id="Ob" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="Curso">Curso</label>
+                <select name="Cursos" id="Curso">
+                    <option value="20">Python</option>
+                    <option value="10">Java</option>
+                    <option value="30">C+</option>
+                    <option value="40">Html</option>
+                </select>
+            </div>
+            <div>
+                <label for="Curso 2">Curso</label>
+                <select name="Cursos" id="Curso">
+                    <option value="20">Python</option>
+                    <option value="10">Java</option>
+                    <option value="30">C+</option>
+                    <option value="40">Html</option>
+                </select>
+            </div>
+            <div>
+                <label for="Curso 3">Curso</label>
+                <select name="Cursos" id="Curso">
+                    <optgroup label="Incluye certifiacion">
+                        <option value="20">Python</option>
+                        <option value="10">Java</option>
+                        <option value="30">C+</option>
+                    </optgroup>
+
+                    <optgroup label="No incluye certificacion">
+                        <option value="40">Html</option>
+                        <option value="50">C#</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <input type="button" value="Guardar">
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Borrar">
+            <button>Guardara</button>
+            <a href="#">Guardar</a>
+        </form>
+    </main>
+    <aside>
+        <h2>Aside</h2>
+    </aside>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
